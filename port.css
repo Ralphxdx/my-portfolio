@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&family=Twinkle+Star&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap);
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.portfolio-1 {
+    text-align: center;
+    color: white;
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+
+.portfolio-2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.fifth-div-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 10px;
+    margin-bottom: 40px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+/* @media screen and (min-width: 826px){
+    .fifth-div-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+
+
+@media screen and (max-width: 825px){
+    .fifth-div-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 30px;
+    }
+
+}
+    
+
+
+p{
+    text-align: center;
+    font-family: 'Spline Sans', sans-serif;
+    color:white;
+}
+
+.footer p{
+    
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+
+.contact-info {
+    color: white;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0 80px;
+}
+
+.contact-info p{
+    color: white;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.butty{
+    background-color: black;
+    border-style: solid;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    justify-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-color: white;   
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+
+.true{
+    text-align: center;
+    margin-bottom: 90px;
+}
